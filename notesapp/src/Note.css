@@ -1,0 +1,15 @@
+.note{
+    display: grid;
+    place-items: center;
+    height: 40vh;
+}
+.note__content > button{
+    align-items: center;
+}
+.fir{
+    margin-bottom: 10px;
+}
+
+.sec{
+    margin-bottom: 10px;
+}
