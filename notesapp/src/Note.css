@@ -2,6 +2,7 @@
     display: grid;
     place-items: center;
     height: 40vh;
+    background-color:rgb(125, 125, 165);
 }
 .note__content > button{
     align-items: center;
