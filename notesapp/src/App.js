@@ -11,9 +11,10 @@ function App() {
   return (
     <div className="App">
       <Note onAdd={addNote} />
-     {notes.map((first,second) => <Result key={second} title={first.title} content={first.content} /> )}
+     {notes.map((show,second) => <Result key={second} title={show.title} content={show.content} /> )}
     </div>
   );
 }
+
 
 export default App;

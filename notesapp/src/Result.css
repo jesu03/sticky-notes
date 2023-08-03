@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
 .result{
     padding-left:55px;
     background-color:black !important;
@@ -10,9 +12,17 @@
     box-shadow: 0 10px 12px rgba(0, 0, 0, 0.12),0 2px 3px rgba(0,0,0,0.24);
     float:left;
     margin: 4px;
-    width:200px;
-    height:160px;
+    width:240px;
+    height:190px;
+    border-radius: 10px;
 }
 .result__content > h3{
-    width: 10px;
-}  
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(48, 29, 56);
+}
+.result__content > h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: moccasin;
+}
