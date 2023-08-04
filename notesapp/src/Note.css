@@ -3,14 +3,28 @@
     place-items: center;
     height: 40vh;
     background-color:rgb(125, 125, 165);
+    
 }
-.note__content > button{
-    align-items: center;
-}
+
 .fir{
     margin-bottom: 10px;
 }
 
 .sec{
     margin-bottom: 10px;
+}
+
+.fir > input{
+    background-color:rgb(125, 125, 165);
+    border: none;
+    color: black;
+}
+.sec > textarea{
+    background-color:rgb(125, 125, 165);
+    border: none;
+    color: black;
+}
+
+.note__content > button{
+    margin-left: 20px;
 }
